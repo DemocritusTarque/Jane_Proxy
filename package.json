@@ -1,0 +1,39 @@
+{
+  "name": "joon-proxy",
+  "version": "1.0.0",
+  "description": "proxy server to connect four modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoonJang95/proxy-JoonJang.git"
+  },
+  "author": "Joon Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoonJang95/proxy-JoonJang/issues"
+  },
+  "homepage": "https://github.com/JoonJang95/proxy-JoonJang#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "grunt": "^1.0.3",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "style-loader": "^0.23.1"
+  }
+}
