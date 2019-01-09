@@ -1,0 +1,13 @@
+
+
+#ImageandProductWrapper {
+  overflow: hidden;
+}
+
+.ImageWrapper {
+  z-index: 3;
+  width: 880px;
+  overflow: hidden;
+}
+
+
