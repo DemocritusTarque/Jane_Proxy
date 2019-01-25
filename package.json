@@ -4,8 +4,7 @@
   "description": "proxy server to connect four modules",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server.js",
-    "webpack": "webpack -d --watch"
+    "start": "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,8 @@
     "express": "^4.16.4",
     "jquery": "^3.3.1",
     "morgan": "^1.9.1",
+    "newrelic": "^5.2.0",
+    "nodemon": "^1.18.9",
     "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
