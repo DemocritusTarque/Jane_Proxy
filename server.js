@@ -16,7 +16,12 @@ app.listen(port, () => {
   console.log(`server running on ${port}`);
 });
 
+// verification for loader.io
+app.get('/loaderio-99f008389d260b26db6866d75f3cb239', (req, res) => {
+  res.send('loaderio-99f008389d260b26db6866d75f3cb239');
+});
+
 app.use('/api/item/:id', (req, res) => {
-  var url = `http://54.241.142.228:3003/api/item/${req.params.id}`;
+  var url = `http://52.53.157.66:3003/api/item/${req.params.id}`;
   req.pipe(request(url)).pipe(res);
 });
